@@ -7,7 +7,7 @@
  * Main AngularJS Web Application
  */
 var app = angular.module('tutorialWebApp', [
-  'ngRoute', 'textAngular'
+  'ngRoute'
 ]);
 
 /**
@@ -23,7 +23,6 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
     .when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
-    .when("/map", {templateUrl: "partials/map.html", controller: "wysiwygeditor"})
     // Blog
     .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
     .when("/blog/post", {templateUrl: "partials/blog_item.html", controller: "BlogCtrl"})
@@ -37,14 +36,6 @@ app.config(['$routeProvider', function ($routeProvider) {
 app.controller('BlogCtrl', function (/* $scope, $location, $http */) {
   console.log("Blog Controller reporting for duty.");
 });
-
-app.controller('wysiwygeditor', function ($scope) {
-    $scope.orightml = '<h2>Try me!</h2>';
-    $scope.htmlcontent = $scope.orightml;
-    $scope.disabled = false;
-  });
-
-
 
 /**
  * Controls all other Pages
