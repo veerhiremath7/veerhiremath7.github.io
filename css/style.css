@@ -1,0 +1,232 @@
+a.navbar-brand {
+    padding: 0;
+}
+.container {
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+nav#mainNav {
+    min-height: 65px;
+    border: none !important;
+}
+a.navbar-brand {
+    margin: 0 !important;
+}
+.container.customcontainer{
+	padding: 0;
+}
+.collapse.navbar-collapse.navbar-ex1-collapse{
+	margin: 10px auto;
+	bottom: -10px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+.navbar-header {
+    position: relative;
+    bottom: -10px;
+}
+a.listclass {
+    padding: 5px 15px !important;
+    position: relative;
+    bottom: -15px;
+   }
+.list-group-item{
+	position: relative;
+    display: inline-block !important;
+    padding: 0 10px !important;
+    margin-bottom: -1px;
+    background-color: transparent !important;
+    border: none !important;
+}
+.list-group{
+	margin: 0 !important;
+}
+.social-icons{
+	float: right;
+    margin: 14px 0px;
+}
+li.list-group-item:focus li.list-group-item:hover li.list-group-item:active {
+    outline:none;
+}
+.btn-background{
+	background-image: url('../img/white/loginbtn.png') !important; 
+	background-repeat: no-repeat;
+	padding: 3px 15px;
+	background-color: transparent;
+
+}
+.btn{
+	padding: 2px 16px !important;
+}
+button.btn.btn-background:focus{
+	outline: none;
+}
+.navbar-inverse{
+	background: #fff !important; 
+	border-color:#fff !important;
+}
+.list-group{
+	box-shadow: none !important;
+}
+.affix{
+	background: #00A3C5 !important;
+	transition: background 600ms ease !important;
+}
+.affix-top{
+	background: #fff !important;
+	transition: background 600ms ease !important;
+}
+div#myCarousel {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    top: 16px;
+}
+.frmctrl{
+margin-bottom: 7px !important;
+}
+.cstmbtn{
+padding: 7px !important;
+    background: #00A3C5 !important;
+}
+.soc-signup {
+    margin: 15px auto 0px auto;
+    width: 90%;
+}
+button.btn.btn-primary.cstmsocial {
+    margin: 5px auto;
+    width: 100%;
+    padding: 5px !important;
+    background-image: none;
+    border: none;
+}
+.btstrpcarousel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+}
+button.btn.btn-primary.cstmsocial.g {
+    background-color: #F4423E;
+}
+button.btn.btn-primary.cstmsocial.fb {
+    background-color: #195E9B;
+}
+.mak-logo {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+.carousel-inner{
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+.mak-blog-img {
+    padding: 0px 16px !important;
+}
+.mak-h2{
+    margin: 0;
+}
+.yellow{
+    background:#DDC353 !important;
+}
+.green{
+    background: #00AE90 !important;
+}
+.blue{
+    background: #10B0CB !important;
+}
+button.btn.btn-primary.btn-block {
+    outline: none !important;
+    padding: 8px !important;
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+}
+.mak-img{
+   position: relative; 
+   width: 100%;
+}
+.mak-h2-on-img{
+    position: absolute; 
+   bottom: 24%; 
+   left: 0; 
+   width: 100%; 
+   text-align: center;
+   color: #fff;
+   margin: 0;
+}
+.mak-question {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 7%;
+}
+.mak-question h3{
+    color: #D54565;
+}
+.checkbox label, .radio label{
+    display: block;
+}
+input[type=radio] {
+color: red !important;
+}
+/* changed style when checked */
+input[type=radio]:checked + .overlay {
+  background-color: green !important;
+}
+.rad-ans {
+    margin: 10px 0;
+}
+.btncstom{
+    padding: 8px !important;
+    width: 35% !important;
+    background: #00A3C5 !important;
+    border: none;
+}
+.rad-ans label {
+    font-size: 13px;
+    font-weight: 200;
+}
+.cstmquestnofday {
+    padding: 0 !important;
+}
+.slidercontent{
+    right: 3% !important;
+    left: 3% !important;
+    top: 0;
+}
+.cntnt-oncarousel{
+    position: absolute;
+    bottom: 0 !important;
+}
+.cntnt-oncarousel {
+    position: absolute;
+    bottom: 8% !important;
+    left: 40%;
+    right: 40%;
+}
+.cardthree{
+    padding: 0 !important;
+}
+.right-cstmquestnofday{
+    padding: 0 10px !important;
+}
+.ta-editor {
+  min-height: 300px;
+  height: auto;
+  overflow: auto;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+
+
+
