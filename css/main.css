@@ -122,6 +122,15 @@ body {
     font-style: italic;
 }
 
+/* custom code goes here */
+.profile-image{
+    height: 200px;
+    background: url("../images/background-image.jpg");
+    background-size: 100%;
+    background-position: 100% 70%;
+}
+
+
 /* Footer Styles */
 footer {
     margin: 50px 0;
