@@ -1,0 +1,59 @@
+.profile-image{
+    background: url("../images/background-image.jpg");
+    background-size: 100%;
+    background-position: 100% 0;
+    height: 115px;
+}
+
+a.nav-logo{
+    width: 50%;
+    float: left;
+    top: 25px;
+    position: relative;
+    max-width: 160px;
+    min-width: 160px;
+}
+
+/* menu code */
+.v-head-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    background: #8eb192;
+}
+
+.nav-list {
+    float: right;
+}
+
+.nav-list a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #65907f;
+}
+.v-logo-container {
+    width: 25%;
+    margin: 0 20px;
+}
+
+
+a.nav-logo img{border-radius: 50%}
+.navbar-toggle .icon-bar{background: #000}
+@media only screen and (max-width: 480px){
+    .profile-image{height: 165px;}
+    .v-head-nav{width: 100%}
+    .nav-list, .v-head-nav{float: left;}
+    a.nav-logo{width: 100%;margin: 0 50%;top: 35px;}
+    .v-logo-container{margin: 0;width: 50%;}
+
+}
