@@ -1,4 +1,4 @@
-.profile-image{
+/*.profile-image{
     background: url("../images/background-image.jpg");
     background-size: 100%;
     background-position: 100% 0;
@@ -14,7 +14,7 @@ a.nav-logo{
     min-width: 160px;
 }
 
-/* menu code */
+
 .v-head-nav {
     list-style-type: none;
     margin: 0;
@@ -57,3 +57,68 @@ a.nav-logo img{border-radius: 50%}
     .v-logo-container{margin: 0;width: 50%;}
 
 }
+*/
+a.nav-logo{float: right; max-width: 64px;}
+.my-bg-img{
+    position: absolute;
+    left: 0;
+    top: 64px;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.6;
+}
+/*.veerProfile{
+    min-height: 300px;
+    background: #26a69a;
+}
+.profileBackground{min-height: 100px}
+.nopadding{padding: 0 !important;margin: 0 !important;}
+.profile-background{background-image: url(../images/background.png);background-position: 100%;background-repeat: no-repeat;}
+.profilePic{width: 50px;height: 50px;}
+
+*/
+
+.profile-background{background-image: url(../images/background.png);background-position: 100%;background-repeat: no-repeat;}
+.m-b-0 {
+    margin-bottom: 0 !important;
+}
+.panel-profile .panel-heading {
+    height: 150px;
+    background-size: cover;
+}
+.panel-profile-img {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.panel-profile .panel-title {
+    margin-bottom: 5px;
+}
+.template-index h5 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+.m-b {
+    margin-bottom: 15px !important;
+}
+.btn-sm {
+    font-size: 12px;
+    padding: 5px 15px;
+}
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 7px 24px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #6b15a1;
+    background: #6b15a1;
+    font-weight: 400;
+}
+
+
+

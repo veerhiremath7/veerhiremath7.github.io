@@ -225,6 +225,7 @@ var manualUppercase = function(s) {
 // locale, for this reason we need to detect this case and redefine lowercase/uppercase methods
 // with correct but slower alternatives.
 if ('i' !== 'I'.toLowerCase()) {
+  console.log('I'.toLowerCase());
   lowercase = manualLowercase;
   uppercase = manualUppercase;
 }

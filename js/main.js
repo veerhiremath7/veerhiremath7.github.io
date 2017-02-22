@@ -6,6 +6,7 @@
 /**
  * Main AngularJS Web Application
  */
+
 var app = angular.module('tutorialWebApp', [
   'ngRoute'
 ]);
@@ -22,9 +23,11 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/faq", {templateUrl: "partials/faq.html", controller: "PageCtrl"})
     .when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
     .when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
+    .when("/original", {templateUrl: "partials/original_home.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
     // Blog
     .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
+    .when("/photo-gallary", {templateUrl: "partials/photo-gallary.html", controller: "BlogCtrl"})    
     .when("/blog/post", {templateUrl: "partials/blog_item.html", controller: "BlogCtrl"})
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
@@ -53,3 +56,8 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
     selector: "a[data-toggle=tooltip]"
   })
 });
+
+app.controller('profileController', function($scope){
+  console.log('Profile controller reporting for duty');
+});
+
