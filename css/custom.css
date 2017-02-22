@@ -72,20 +72,21 @@ a.nav-logo{float: right; max-width: 64px;}
     min-height: 300px;
     background: #26a69a;
 }
-.profileBackground{min-height: 100px}
 .nopadding{padding: 0 !important;margin: 0 !important;}
 .profile-background{background-image: url(../images/background.png);background-position: 100%;background-repeat: no-repeat;}
 .profilePic{width: 50px;height: 50px;}
 
 */
 
-.profile-background{background-image: url(../images/background.png);background-position: 100%;background-repeat: no-repeat;}
 .m-b-0 {
     margin-bottom: 0 !important;
 }
 .panel-profile .panel-heading {
     height: 150px;
     background-size: cover;
+    background-image: url(../images/background.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
 }
 .panel-profile-img {
     max-width: 100px;
