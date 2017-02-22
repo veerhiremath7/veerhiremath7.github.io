@@ -87,8 +87,9 @@ a.nav-logo{float: right; max-width: 64px;}
     height: 100px;
     background-size: cover;
     background-image: url(../images/background.png);
-    background-position: 100%;
+    background-position: 50%;
     background-repeat: no-repeat;
+    background-size: 140%;
 }
 .panel-profile-img {
     max-width: 100px;
