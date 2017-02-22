@@ -104,20 +104,27 @@ a.nav-logo{float: right; max-width: 64px;}
 }
 .m-b {
     margin-bottom: 15px !important;
+    font-weight: 400;
+    color: rgba(0,0,0,.55);
+    font-size: 13px;
 }
 .btn-sm {
     font-size: 12px;
     padding: 5px 15px;
 }
-.btn {
+.connect-btn {
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     padding: 7px 24px;
     border-radius: 4px;
-    color: #fff;
-    border: 1px solid #6b15a1;
-    background: #6b15a1;
-    font-weight: 400;
+    border: 1px solid #428bca;
+    color: #428bca;
+    font-weight: 500;
+}
+.connect-btn:hover{
+    border: 2px solid #428bca;
+    margin: -1px;
+    color: #428bca;
 }
 
 
