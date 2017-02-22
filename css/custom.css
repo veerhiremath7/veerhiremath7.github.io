@@ -140,11 +140,11 @@ a.nav-logo{float: right; max-width: 64px;}
     line-height: 17px;
     color: #66696a;
 }
-.heading-block{margin-bottom: 15px}
+.heading-block, .experience-block, .skills-block{margin-bottom: 15px}
 
 .right-block{padding-left: 0;}
 
-.additional-details {margin-top: 10px;}
+.additional-details, .companies-list{margin-top: 10px;}
 
 .additional-details th{
     font-size: 11px;
