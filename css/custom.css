@@ -77,7 +77,9 @@ a.nav-logo{float: right; max-width: 64px;}
 .profilePic{width: 50px;height: 50px;}
 
 */
-
+.nopadding{padding: 0 !important;margin: 0 !important;}
+.bg-white{background-color: #fff;}
+.rounded-corner{border-radius: 4px;}
 .m-b-0 {
     margin-bottom: 0 !important;
 }
@@ -118,15 +120,42 @@ a.nav-logo{float: right; max-width: 64px;}
     font-size: 16px;
     padding: 7px 24px;
     border-radius: 4px;
-    border: 1px solid #428bca;
-    color: #428bca;
+    color: #0084bf;
+    box-shadow: inset 0 0 0 1px #0084bf, inset 0 0 0 2px transparent, inset 0 0 0 3px transparent;
     font-weight: 500;
+    transition-duration: 167ms;
+    transition-property: background-color,box-shadow,color;
+    transition-timing-function: cubic-bezier(0,0,.2,1);
+    vertical-align: middle;
 }
 .connect-btn:hover{
-    border: 2px solid #428bca;
-    margin: -1px;
-    color: #428bca;
+    box-shadow: inset 0 0 0 1px #0084bf, inset 0 0 0 2px #0073b1, inset 0 0 0 3px transparent;
+    color: #0084bf;
 } 
+.page-heading{font-weight: 600;}
+.location{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 17px;
+    color: #66696a;
+}
+.heading-block{margin-bottom: 15px}
 
+.right-block{padding-left: 0;}
 
+.additional-details {margin-top: 10px;}
 
+.additional-details th{
+    font-size: 11px;
+    color: #999;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+
+.additional-details td{
+    font-size: 12px;
+    line-height: 14px;
+    color: #333;
+    font-weight: normal;
+}
+.company-name:hover{text-decoration: none;}
