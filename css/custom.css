@@ -82,7 +82,7 @@ a.nav-logo{float: right; max-width: 64px;}
     margin-bottom: 0 !important;
 }
 .panel-profile .panel-heading {
-    height: 150px;
+    height: 100px;
     background-size: cover;
     background-image: url(../images/background.png);
     background-position: 100%;
