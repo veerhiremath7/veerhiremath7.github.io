@@ -1,67 +1,12 @@
 
 body{font-family: "Source Sans Pro", sans-serif;}
 
-/*.profile-image{
-    background: url("../images/background-image.jpg");
-    background-size: 100%;
-    background-position: 100% 0;
-    height: 115px;
-}
-
-a.nav-logo{
-    width: 50%;
-    float: left;
-    top: 25px;
-    position: relative;
-    max-width: 160px;
-    min-width: 160px;
-}
-
-
-.v-head-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-    background: #8eb192;
-}
-
-.nav-list {
-    float: right;
-}
-
-.nav-list a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.nav-list a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: #65907f;
-}
-.v-logo-container {
-    width: 25%;
-    margin: 0 20px;
-}
-
-
-a.nav-logo img{border-radius: 50%}
-.navbar-toggle .icon-bar{background: #000}
-@media only screen and (max-width: 480px){
-    .profile-image{height: 165px;}
-    .v-head-nav{width: 100%}
-    .nav-list, .v-head-nav{float: left;}
-    a.nav-logo{width: 100%;margin: 0 50%;top: 35px;}
-    .v-logo-container{margin: 0;width: 50%;}
-
-}
-*/
 a.nav-logo{float: right; max-width: 64px;}
+
+.my-col{
+  float: left;
+  width: 100%;
+}
 .my-bg-img{
     position: absolute;
     left: 0;
@@ -71,15 +16,6 @@ a.nav-logo{float: right; max-width: 64px;}
     z-index: 1;
     opacity: 0.6;
 }
-/*.veerProfile{
-    min-height: 300px;
-    background: #26a69a;
-}
-.nopadding{padding: 0 !important;margin: 0 !important;}
-.profile-background{background-image: url(../images/background.png);background-position: 100%;background-repeat: no-repeat;}
-.profilePic{width: 50px;height: 50px;}
-
-*/
 .nopadding{padding: 0 !important;margin: 0 !important;}
 .bg-white{background-color: #fff;}
 .rounded-corner{border-radius: 4px;}
@@ -165,7 +101,25 @@ a.nav-logo{float: right; max-width: 64px;}
 }
 .company-name:hover{text-decoration: none;}
 
-@@media (max-width:770px) {
+.skills-block span {
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    background: #e6e6e6;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.knowledge p{
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.college-name h4, .college-name p {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:770px) {
   .right-block{padding-left: 15px;}
   .block-devider{margin-bottom: 15px;}
   .page-heading{text-align: center;}
