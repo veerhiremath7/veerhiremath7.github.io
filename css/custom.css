@@ -95,7 +95,7 @@ a.nav-logo{float: right; max-width: 64px;}
 }
 .heading-block, .experience-block, .skills-block, .companies-list{margin-bottom: 15px}
 
-.block-profile{margin-bottom: 15px;}
+.block-profile, .block-links, .content-block{margin-bottom: 15px;}
 
 .additional-details, .companies-list{margin-top: 10px;}
 
@@ -132,12 +132,21 @@ a.nav-logo{float: right; max-width: 64px;}
     margin-bottom: 0;
 }
 
-.right-block{
+.link-block{
     height: 400px;
     background: #fff;
+}
+
+.link-block h4{
+    text-align: center;
+    color: #0c0;
 }
 
 @media screen and (max-width:770px) {
   .block-devider{margin-bottom: 15px;}
   .page-heading{text-align: center;}
+}
+
+@media screen and (max-width: 990px){
+    .content-block{padding-right: 15px;padding-left: 15px;}
 }
