@@ -7,6 +7,12 @@ a.nav-logo{float: right; max-width: 64px;}
   float: left;
   width: 100%;
 }
+
+.no-gutters{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .my-bg-img{
     position: absolute;
     left: 0;
@@ -126,8 +132,9 @@ a.nav-logo{float: right; max-width: 64px;}
     margin-bottom: 0;
 }
 
-@media screen and (min-width: 991px){
-    .right-block{padding-left: 0;}
+.right-block{
+    height: 400px;
+    background: #fff;
 }
 
 @media screen and (max-width:770px) {
