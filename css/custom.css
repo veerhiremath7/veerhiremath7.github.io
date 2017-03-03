@@ -17,18 +17,26 @@ a.nav-logo{float: right; max-width: 64px;}
     opacity: 0.6;
 }
 .nopadding{padding: 0 !important;margin: 0 !important;}
+
 .bg-white{background-color: #fff;}
+
 .rounded-corner{border-radius: 4px;}
+
 .m-b-0 {
     margin-bottom: 0 !important;
 }
+
+.cv-download {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
 .panel-profile .panel-heading {
     height: 100px;
     background-size: cover;
     background-image: url(../images/background.png);
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: 140%;
 }
 .panel-profile-img {
     max-width: 100px;
@@ -81,7 +89,6 @@ a.nav-logo{float: right; max-width: 64px;}
 }
 .heading-block, .experience-block, .skills-block, .companies-list{margin-bottom: 15px}
 
-.right-block{padding-left: 0;}
 .block-profile{margin-bottom: 15px;}
 
 .additional-details, .companies-list{margin-top: 10px;}
@@ -119,8 +126,11 @@ a.nav-logo{float: right; max-width: 64px;}
     margin-bottom: 0;
 }
 
+@media screen and (min-width: 991px){
+    .right-block{padding-left: 0;}
+}
+
 @media screen and (max-width:770px) {
-  .right-block{padding-left: 15px;}
   .block-devider{margin-bottom: 15px;}
   .page-heading{text-align: center;}
 }
