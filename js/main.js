@@ -47,15 +47,22 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
   console.log("Page Controller reporting for duty.");
 
   function getQuotes(){
-  $.ajax({
-    url : "http://api.forismatic.com/api/1.0/?",
-    dataType : "jsonp",
-    data : "method=getQuote&format=jsonp&lang=en&jsonp=?",
-    success : function(response){ 
-    $("#rand_quotes").html('<i class="fa fa-quote-left icons"></i> ' + response.quoteText + ' <i class="fa fa-quote-right icons"></i>');
-    $("#quote_author").html(response.quoteAuthor ? response.quoteAuthor : "anonymous");
-  }
+   $.ajax({
+      url: 'https://andruxnet-random-famous-quotes.p.mashape.com/cat=movies',
+      type: 'POST',
+      data: {},
+      datatype: 'json',
+      success: function(data) {
+        var response = jQuery.parseJSON(data);
+        $("#rand_quotes").html('<i class="fa fa-quote-left icons"></i> ' + response.quote + ' <i class="fa fa-quote-right icons"></i>');
+        $("#quote_author").html(response.author ? response.author : "anonymous");
+      },
+      error: function(err) { console.log(err); },
+      beforeSend: function(xhr) {
+      xhr.setRequestHeader("X-Mashape-Authorization", "2W1js31pYJmshjhSeK7bv8Sb4SIgp1HPxkDjsnxBZqr7ZhGKZ2"); // Enter here your Mashape key
+      }
   });
+
 }
   $(function(){
     getQuotes();
