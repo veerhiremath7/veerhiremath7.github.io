@@ -133,13 +133,19 @@ a.nav-logo{float: right; max-width: 64px;}
 }
 
 .link-block{
-    height: 400px;
     background: #fff;
 }
 
 .link-block h4{
     text-align: center;
     color: #0c0;
+}
+
+.quotes{
+  margin:5px auto 15px;
+  background-color: #ccc;
+  padding:20px;
+  border-radius: 4px;
 }
 
 @media screen and (max-width:770px) {

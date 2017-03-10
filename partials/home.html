@@ -4,18 +4,6 @@
 <div class="section">
 	<div class="container">
 		<div class="row">
-			<!-- <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 veerProfile nopadding">
-				<div class="row nopadding">
-					<div class="col-lg-12 profileBackground nopadding">
-
-					</div>
-					<div class="container">
-						<div class="col-lg-3 centered">
-							<span class="col-lg-12 profilePic"></span>
-						</div>
-					</div>
-				</div>
-			</div> -->
 			<div class="col-md-3 block-profile">
 	          <div class="panel panel-default panel-profile m-b-0">
 	            <div class="panel-heading profile-background"></div>
@@ -35,9 +23,6 @@
 	              </p>
 	            </div>
 	          </div>
-	          <!-- <form method="get" action="veerhiremath7@gmail.doc">
-					<button type="submit" class="cv-download btn btn-primary btn-block"><i class="fa fa-download" aria-hidden="true" style="margin: 0 10px;"></i>Resume</button>
-				</form> -->
 				<a href="veerhiremath7@gmail.pdf" target="_blank" class="cv-download btn btn-primary btn-block"><i class="fa fa-download" aria-hidden="true" style="margin: 0 10px;"></i>Resume</a>
 	        </div>
 
@@ -123,7 +108,17 @@
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 block-links">
 				<div class="col-md-12 rounded-corner link-block">
-					<h4><i>Under Development<i></h4>
+					<div class="container-fluid">
+					  <div class="row">
+					    <div class="col-md-12 no-gutters">
+					      <h4 class="text-center heading">Quotes</h4>
+					      <div class="col-md-12 quotes">
+					        <p id="rand_quotes"></p>
+					        <p id="quote_author" class="text-right"></p>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -137,12 +132,4 @@
         $("#welcomeMessage").hide('slow')
     }, 3000);
 });
-
-//
-// $(document).ready(function () {
-//     $.getJSON("http://jsonip.com/?callback=?", function (data) {
-//         console.log(data);
-//         alert(data.ip);
-//     });
-// });
 </script>

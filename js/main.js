@@ -46,6 +46,24 @@ app.controller('BlogCtrl', function (/* $scope, $location, $http */) {
 app.controller('PageCtrl', function (/* $scope, $location, $http */) {
   console.log("Page Controller reporting for duty.");
 
+  function getQuotes(){
+  $.ajax({
+    url : "http://api.forismatic.com/api/1.0/?",
+    dataType : "jsonp",
+    data : "method=getQuote&format=jsonp&lang=en&jsonp=?",
+    success : function(response){ 
+    $("#rand_quotes").html('<i class="fa fa-quote-left icons"></i> ' + response.quoteText + ' <i class="fa fa-quote-right icons"></i>');
+    $("#quote_author").html(response.quoteAuthor ? response.quoteAuthor : "anonymous");
+  }
+  });
+}
+  $(function(){
+    getQuotes();
+  });
+  setInterval(function(){
+    getQuotes();
+  },10000);
+
   // Activates the Carousel
   $('.carousel').carousel({
     interval: 5000
