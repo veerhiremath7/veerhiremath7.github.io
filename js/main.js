@@ -69,7 +69,7 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
   });
   setInterval(function(){
     getQuotes();
-  },10000);
+  },20000);
 
   // Activates the Carousel
   $('.carousel').carousel({
