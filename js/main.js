@@ -57,7 +57,7 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
         $("#rand_quotes").html('<i class="fa fa-quote-left icons"></i> ' + response.quote + ' <i class="fa fa-quote-right icons"></i>');
         $("#quote_author").html(response.author ? response.author : "anonymous");
       },
-      error: function(err) { console.log(err); },
+      error: function(err) { },
       beforeSend: function(xhr) {
       xhr.setRequestHeader("X-Mashape-Authorization", "2W1js31pYJmshjhSeK7bv8Sb4SIgp1HPxkDjsnxBZqr7ZhGKZ2"); // Enter here your Mashape key
       }
