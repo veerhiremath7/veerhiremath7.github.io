@@ -121,6 +121,7 @@ a.nav-logo{float: right; max-width: 64px;}
     background: #e6e6e6;
     border-radius: 4px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .knowledge p{
