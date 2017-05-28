@@ -1,0 +1,102 @@
+
+
+{"personal-info": {
+  "my-info": [
+    {
+      "my-name": "Veeresh Hiremath",
+      "Qualification": "BE in Computer Science",
+      "experience": {
+        "first-company": "Commerce Karma",
+        "first-company-location": "Bangalore",
+        "first-company-state": "Karnataka",
+        "first-company-country": "India",
+        "first-company-designation": "Web Developer",
+        "first-company-skills": "HTML5, CSS3, Javascript, JQuery, Wordpress, Prestashop",
+        "first-company-joining": "Oct-2014",
+        "first-company-relieving": "Aug-2015",
+        "first-company-mail-id": "veeresh@commercekarma.com",
+        "second-company-name": "Makery Labs Pvt. Ltd.",
+        "second-company-location": "Bangalore",
+        "second-company-state": "Karnataka",
+        "second-company-country": "India",
+        "second-company-designation": "Software Engineer",
+        "second-company-skills": "HTML5, CSS3, Javascript, JQuery, AngularJS, Responsive Web Designing, Magento, MEAN Stack",
+        "second-company-joining": "Sep-2015",
+        "second-company-relieving": "April-2017",
+        "second-company-mail-id": "veeresh@makery.in"}
+    },
+
+    {
+      "my-name": "Veeresh MH",
+      "Qualification": "BE in Computer Science",
+      "experience": {
+        "first-company": "Commerce Karma",
+        "first-company-location": "Bangalore",
+        "first-company-state": "Karnataka",
+        "first-company-country": "India",
+        "first-company-designation": "Web Developer",
+        "first-company-skills": "HTML5, CSS3, Javascript, JQuery, Wordpress, Prestashop",
+        "first-company-joining": "Oct-2014",
+        "first-company-relieving": "Aug-2015",
+        "first-company-mail-id": "veeresh@commercekarma.com",
+        "second-company-name": "Makery Labs Pvt. Ltd.",
+        "second-company-location": "Bangalore",
+        "second-company-state": "Karnataka",
+        "second-company-country": "India",
+        "second-company-designation": "Software Engineer",
+        "second-company-skills": "HTML5, CSS3, Javascript, JQuery, AngularJS, Responsive Web Designing, Magento, MEAN Stack",
+        "second-company-joining": "Sep-2015",
+        "second-company-relieving": "April-2017",
+        "second-company-mail-id": "veeresh@makery.in"}
+    },
+
+    {
+      "my-name": "Veeresh",
+      "Qualification": "BE in Computer Science",
+      "experience": {
+        "first-company": "Commerce Karma",
+        "first-company-location": "Bangalore",
+        "first-company-state": "Karnataka",
+        "first-company-country": "India",
+        "first-company-designation": "Web Developer",
+        "first-company-skills": "HTML5, CSS3, Javascript, JQuery, Wordpress, Prestashop",
+        "first-company-joining": "Oct-2014",
+        "first-company-relieving": "Aug-2015",
+        "first-company-mail-id": "veeresh@commercekarma.com",
+        "second-company-name": "Makery Labs Pvt. Ltd.",
+        "second-company-location": "Bangalore",
+        "second-company-state": "Karnataka",
+        "second-company-country": "India",
+        "second-company-designation": "Software Engineer",
+        "second-company-skills": "HTML5, CSS3, Javascript, JQuery, AngularJS, Responsive Web Designing, Magento, MEAN Stack",
+        "second-company-joining": "Sep-2015",
+        "second-company-relieving": "April-2017",
+        "second-company-mail-id": "veeresh@makery.in"}
+    },
+
+    {
+      "my-name": "Veeresh M",
+      "Qualification": "BE in Computer Science",
+      "experience": {
+        "first-company": "Commerce Karma",
+        "first-company-location": "Bangalore",
+        "first-company-state": "Karnataka",
+        "first-company-country": "India",
+        "first-company-designation": "Web Developer",
+        "first-company-skills": "HTML5, CSS3, Javascript, JQuery, Wordpress, Prestashop",
+        "first-company-joining": "Oct-2014",
+        "first-company-relieving": "Aug-2015",
+        "first-company-mail-id": "veeresh@commercekarma.com",
+        "second-company-name": "Makery Labs Pvt. Ltd.",
+        "second-company-location": "Bangalore",
+        "second-company-state": "Karnataka",
+        "second-company-country": "India",
+        "second-company-designation": "Software Engineer",
+        "second-company-skills": "HTML5, CSS3, Javascript, JQuery, AngularJS, Responsive Web Designing, Magento, MEAN Stack",
+        "second-company-joining": "Sep-2015",
+        "second-company-relieving": "April-2017",
+        "second-company-mail-id": "veeresh@makery.in"}
+    }
+]
+ }
+}

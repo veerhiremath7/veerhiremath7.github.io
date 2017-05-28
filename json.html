@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get JSON Data with Javascript</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap320.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</head>
+<body>
+	<div class="container" ng-app="jsonApi">
+		<div class="row">
+			<div class="col-md-12 col-xs-12">
+				<h3>JSON Data with JQuery</h3>
+				<div class="col-md-8 data-display">
+				</div>
+				<div class="col-md-12" ng-controller="callAPI">
+					<h3>JSON Data with AngularJS</h3>
+					<p ng-repeat="info in myInformation track by $index">{{info["my-name"]}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+
+		var app = angular.module('jsonApi', []);
+		app.controller('callAPI', function($scope, $http){
+			$http({
+				method : 'GET',
+				url : 'myInfo.json'
+			}).then(function(data){
+				var myInfo = data.data;
+				$scope.myInformation = myInfo["personal-info"]["my-info"];
+				$scope.userName = myInfo;
+
+
+			}, function(err){
+
+			});
+		});
+	</script>
+</body>
+</html>
