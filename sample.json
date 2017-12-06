@@ -1,5 +1,5 @@
 {
-    "$schema": "https://veerhiremath7.github.io/sample.json",
+    "schema": "https://veerhiremath7.github.io/sample.json",
     "title": "My Details",
     "description": "This is my details page",
     "type": "object",
