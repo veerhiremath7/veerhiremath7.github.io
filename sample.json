@@ -1,4 +1,5 @@
-"veerdata": {
+{ 
+   "veerdata": {
     "$schema": "http://json-schema.org/draft-06/schema#",
     "title": "Product",
     "description": "A product from Acme's catalog",
@@ -26,5 +27,6 @@
         }
     },
     "required": ["id", "name", "price"]
+}
 }
 }
