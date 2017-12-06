@@ -1,6 +1,4 @@
 "veer": [
-	"veerData": { [
-	
 	{
 		"id": "0001",
 		"type": "donut",
@@ -69,5 +67,4 @@
 				{ "id": "5004", "type": "Maple" }
 			]
 	}
-]}
 ]
