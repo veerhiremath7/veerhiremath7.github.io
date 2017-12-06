@@ -1,7 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-06/schema#",
-    "title": "Product",
-    "description": "A product from Acme's catalog",
+    "$schema": "https://veerhiremath7.github.io/sample.json",
+    "title": "My Details",
+    "description": "This is my details page",
     "type": "object",
     "properties": {
         "id": {
