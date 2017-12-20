@@ -1,9 +1,9 @@
 
 
-{"personal-info": {
-  "my-info": [
+{"personalInfo": {
+  "myInfo": [
     {
-      "my-name": "Veeresh Hiremath",
+      "myName": "Veeresh Hiremath",
       "Qualification": "BE in Computer Science",
       "experience": {
         "first-company": "Commerce Karma",
@@ -27,7 +27,7 @@
     },
 
     {
-      "my-name": "Veeresh MH",
+      "myName": "Veeresh MH",
       "Qualification": "BE in Computer Science",
       "experience": {
         "first-company": "Commerce Karma",
@@ -51,7 +51,7 @@
     },
 
     {
-      "my-name": "Veeresh",
+      "myName": "Veeresh",
       "Qualification": "BE in Computer Science",
       "experience": {
         "first-company": "Commerce Karma",
@@ -75,7 +75,7 @@
     },
 
     {
-      "my-name": "Veeresh M",
+      "myName": "Veeresh M",
       "Qualification": "BE in Computer Science",
       "experience": {
         "first-company": "Commerce Karma",
