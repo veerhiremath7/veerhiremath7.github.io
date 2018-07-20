@@ -40,9 +40,7 @@ a.nav-logo{float: right; max-width: 64px;}
 .panel-profile .panel-heading {
     height: 100px;
     background-size: cover;
-    background-image: url(../images/background.png);
-    background-position: 50%;
-    background-repeat: no-repeat;
+    background-color: #88a8c1;
 }
 .panel-profile-img {
     max-width: 100px;
